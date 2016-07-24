@@ -7,6 +7,7 @@
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="https://maps.google.com/maps/api/js?libraries=placeses,visualization,drawing,geometry,places&key=AIzaSyBRNIN2sU-j7s7ztHBS7uMsCizWAbQ5Ogc"></script>
     <script src="lib/ngMap/ng-map.min.js"></script>
     <script src="lib/angularFire/firebase.js"></script>
     <script src="lib/angularFire/angularfire.min.js"></script>
@@ -18,7 +19,8 @@
       <ion-header-bar class="bar-stable">
         <h1 class="title">Firebase Mock Location</h1>
       </ion-header-bar>
-      <ion-content>
+      <ion-content scroll="false">
+        <ng-map class="locationMap" center="[32.506511, -116.923950]" zoom="17" disable-default-u-i="true" zoom-control="true"></ng-map>
       </ion-content>
     </ion-pane>
   </body>
