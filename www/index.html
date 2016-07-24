@@ -20,7 +20,9 @@
         <h1 class="title">Firebase Mock Location</h1>
       </ion-header-bar>
       <ion-content scroll="false">
-        <ng-map class="locationMap" center="[32.506511, -116.923950]" zoom="17" disable-default-u-i="true" zoom-control="true"></ng-map>
+        <ng-map class="locationMap" center="[32.506511, -116.923950]" zoom="17" disable-default-u-i="true" zoom-control="true">
+          <marker position="[32.506511, -116.923950]" title="drag me" draggable="true"></marker>
+        </ng-map>
       </ion-content>
     </ion-pane>
   </body>
