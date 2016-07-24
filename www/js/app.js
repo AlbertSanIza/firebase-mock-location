@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-angular.module('starter', ['ionic'])
+angular.module('starter', ['ionic', 'starter.controllers'])
 //------------------------------------------------------------------------------
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
