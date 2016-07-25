@@ -23,6 +23,9 @@
         <ng-map class="locationMap" center="[32.506511, -116.923950]" zoom="17" disable-default-u-i="true" zoom-control="true">
           <marker position="[{{mock.lat}}, {{mock.lon}}]" title="drag me" draggable="true" on-dragend="getCurrentLocation()"></marker>
         </ng-map>
+        <div class="bottomControls">
+          <button class="button button-positive" ng-click="activator()">Activated: {{mock.activated}}</button>
+        </div>
       </ion-content>
     </ion-pane>
   </body>
