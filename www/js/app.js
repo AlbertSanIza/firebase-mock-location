@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ngMap'])
+angular.module('starter', ['ionic', 'starter.controllers', 'firebase', 'ngMap'])
 //------------------------------------------------------------------------------
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
