@@ -20,5 +20,8 @@ angular.module('starter.controllers', [])
     $scope.mock.lat = lat;
     $scope.mock.lon = lon;
   };
+  $scope.activator = function() {
+    $scope.mock.activated = !$scope.mock.activated;
+  };
 })
 //------------------------------------------------------------------------------
